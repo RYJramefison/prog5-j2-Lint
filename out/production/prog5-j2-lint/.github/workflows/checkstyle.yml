@@ -1,0 +1,20 @@
+name: Checkstyle
+
+on: [push, pull_request]
+
+jobs:
+  checkstyle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4 # Checkout the repository
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+      - name: Build with Maven and Run Checkstyle
+        run: mvn -B verify checkstyle:checkstyle # Or Gradle equivalent
+      - name: Publish Checkstyle Report
+        uses: jwgmeligmeyling/checkstyle-github-action@v1.2 # Or lcollins/checkstyle-github-action@v3.1.0
+        with:
+          path: '**/checkstyle-result.xml' # Path to the generated Checkstyle report
