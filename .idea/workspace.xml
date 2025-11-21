@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectId" id="35mjCh8yCY4mGcKx6AW5z43HaDv" />
+  <component name="PropertiesComponent">{}</component>
+  <component name="RunManager" selected="Application.Wallet">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.folder.Main" />
+      <module name="prog5-j2-lint." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.folder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wallet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.folder.Wallet" />
+      <module name="prog5-j2-lint." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.folder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Wallet" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>

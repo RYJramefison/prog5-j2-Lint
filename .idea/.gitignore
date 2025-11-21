@@ -1,10 +1,10 @@
 # Default ignored files
-/shelf/
-/workspace.xml
+/../../prog5-j2-lint./.idea/shelf/
+/../../prog5-j2-lint./.idea/workspace.xml
 # Editor-based HTTP Client requests
-/httpRequests/
+/../../prog5-j2-lint./.idea/httpRequests/
 # Environment-dependent path to Maven home directory
-/mavenHomeManager.xml
+/../../prog5-j2-lint./.idea/mavenHomeManager.xml
 # Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+/../../prog5-j2-lint./.idea/dataSources/
+/../../prog5-j2-lint./.idea/dataSources.local.xml

@@ -1,4 +1,4 @@
-package src;
+package org.folder;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

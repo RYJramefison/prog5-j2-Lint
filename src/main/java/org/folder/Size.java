@@ -1,4 +1,4 @@
-package src;
+package org.folder;
 
 public enum Size {
     SMALL, MEDIUM, BIG
