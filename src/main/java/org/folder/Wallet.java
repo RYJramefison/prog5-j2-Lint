@@ -15,12 +15,24 @@ public class Wallet {
     private long money;
     private boolean isLost;
 
-    public long addVola(long amount){
-        return money += amount;
+    public String addVola(long amount){
+        if(this.isLost){
+            return "your wallet is lost, so you cannot add money";
+        }
+        this.money += amount ;
+        return  amount + " added in your wallet";
     }
 
-    public long checkVola(long amount){
-        return money -= amount ;
+    public String checkVola(long amount){
+        return money + " in your wallet" ;
+    }
+
+    public String getVola(long amount){
+        if(this.isLost){
+            return "your wallet is lost, so you cannot retrieve money";
+        }
+        this.money -= amount ;
+        return  amount + " retrieve in your wallet";
     }
 
     public void open(){

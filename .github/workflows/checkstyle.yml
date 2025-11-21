@@ -24,10 +24,5 @@ jobs:
           cache: 'maven'
 
       - name: Run Maven Checkstyle
-        run: mvn clean install checkstyle:checkstyle
+        run: mvn -B verify
 
-      - name: Publish Checkstyle Report
-        uses: jwgmeligmeyling/checkstyle-github-action@v1
-        with:
-          name: Checkstyle Report
-          path: target/checkstyle-result.xml

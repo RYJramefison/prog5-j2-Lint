@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfd54ae6-e416-40a3-af55-2634ca2e4059" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../prog5-j2-lint/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prog5-j2-lint/.github/workflows/checkstyle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../prog5-j2-lint/.github/workflows/checkstyle.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../prog5-j2-lint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prog5-j2-lint/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prog5-j2-lint/src/main/java/org/folder/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prog5-j2-lint/src/main/java/org/folder/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prog5-j2-lint/src/main/java/org/folder/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prog5-j2-lint/src/main/java/org/folder/Wallet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,31 +26,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../prog5-j2-lint" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="35mjCh8yCY4mGcKx6AW5z43HaDv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.Wallet.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/HEI/L3/PROG 5/Projet/prog5-j2-lint/src/main/java/org/folder/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wallet.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/HEI/L3/PROG 5/Projet/prog5-j2-lint/src/main/java/org/folder/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.dsoftware.ghmanager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Wallet">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.folder.Main" />
@@ -96,7 +105,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763722017864</updated>
-      <workItem from="1763722019305" duration="692000" />
+      <workItem from="1763722019305" duration="1740000" />
+      <workItem from="1763728537342" duration="286000" />
+      <workItem from="1763732299608" duration="1772000" />
     </task>
     <servers />
   </component>
