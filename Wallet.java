@@ -10,15 +10,15 @@ import lombok.ToString;
 public class Wallet {
     private Color color;
     private Size size;
-    private long vola;
+    private long money;
     private boolean isLost;
 
     public long addVola(long amount){
-        return vola += amount;
+        return money += amount;
     }
 
     public long checkVola(long amount){
-        return vola -= amount ;
+        return money -= amount ;
     }
 
     public void open(){
